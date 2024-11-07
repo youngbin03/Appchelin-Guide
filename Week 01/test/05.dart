@@ -2,6 +2,8 @@
 List<String> quiz() {
   List<String> bucketList = [];
   // 여기에 작성해주세요.
+  bucketList.add("여행");
+  bucketList.add("앱 출시");
 
   return bucketList;
 }
