@@ -12,8 +12,13 @@
 // cart에 담긴 모든 상품의 최종 가격을 반환해 주세요.
 int totalPrice(List<Map<String, dynamic>> cart) {
   // 여기에 작성해 주세요.
+  num totalPrice = 0;
 
-  return 0;
+  for (var item in cart) {
+    totalPrice += item["price"] * item["count"];
+  }
+
+  return totalPrice.toInt();
 }
 
 void main() {
