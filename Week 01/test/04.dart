@@ -2,10 +2,14 @@
 // if문을 추가해 에러를 해결해 주세요.
 int getLength(String? str) {
   // null 검사 코드를 여기에 작성해주세요.
-
-  return str.length;
+  if (str == null) {
+    return 0;
+  } else {
+    return str.length;
+  }
 }
 
 void main() {
   print(getLength('This is a string!'));
+  print(getLength(null)); //0출력
 }

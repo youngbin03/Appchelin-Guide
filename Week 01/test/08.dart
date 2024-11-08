@@ -2,9 +2,13 @@
 // target은 fruits에 담긴 과일 이름 중 하나입니다.
 // fruits 배열에 target의 개수를 반환해 주세요.
 int countFruit(List<String> fruits, String target) {
-  // 여기에 작성해 주세요.
-
-  return 0;
+  int targetnum = 0;
+  for (int i = 0; i < fruits.length; i++) {
+    if (fruits[i] == target) {
+      targetnum++;
+    }
+  }
+  return targetnum;
 }
 
 void main() {

@@ -3,9 +3,11 @@
 // n = 5인 경우 [0, 1, 2, 3, 4] 반환
 // 단, 0 < n < 100
 List<int> getNumberList(int n) {
-  // 여기에 작성해 주세요.
-
-  return [];
+  List<int> list_ = [];
+  for (int i = 0; i < n; i++) {
+    list_.add(i);
+  }
+  return list_;
 }
 
 void main() {

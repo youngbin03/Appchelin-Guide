@@ -1,7 +1,14 @@
 // bucketList에 "여행", "앱 출시"를 추가해보세요.
 List<String> quiz() {
   List<String> bucketList = [];
-  // 여기에 작성해주세요.
+  bucketList.add("여행");
+  bucketList.add("앱 출시");
+
+  /*
+  bucketList가 빈 리스트로 초기화 돼서 안됨;
+  bucketList[0] = "여행";
+  bucketList[1] = "앱 출시";
+  */
 
   return bucketList;
 }
