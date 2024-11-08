@@ -5,9 +5,16 @@
 //
 // 힌트 : dart sort라고 Google에 검색해 보세요.
 List<int> sortByPrice(List<int> prices) {
-  // 여기에 작성해 주세요.
-
-  return [];
+  for (int i = 0; i < prices.length; i++) {
+    for (int j = 0; j < prices.length - 1; j++) {
+      if (prices[j] < prices[j + 1]) {
+        int temp = prices[j];
+        prices[j] = prices[j + 1];
+        prices[j + 1] = temp;
+      }
+    }
+  }
+  return prices;
 }
 
 void main() {

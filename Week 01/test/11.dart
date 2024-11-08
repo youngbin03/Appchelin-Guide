@@ -2,8 +2,16 @@
 // 상품에 isSale 속성이 true인 경우, 해당 상품은 반값 할인을 합니다.
 // cart에 담긴 모든 상품의 최종 가격을 반환해 주세요.
 double totalPrice(List<Product> cart) {
-  // 여기에 작성해 주세요.
-  return 0;
+  double totalprice = 0;
+  for (int i = 0; i < cart.length; i++) {
+    if (cart[i].isSale == true) {
+      totalprice += cart[i].price * cart[i].count / 2;
+    } else {
+      totalprice += cart[i].price * cart[i].count;
+    }
+  }
+
+  return totalprice;
 }
 
 class Product {

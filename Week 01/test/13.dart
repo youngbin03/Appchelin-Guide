@@ -1,7 +1,15 @@
 // cart에는 상품(Product)들이 담겨있습니다.
 // Product를 가격(price)을 기준으로 내림차순 정렬한 배열을 반환해주세요.
 List<Product> sortByPrice(List<Product> cart) {
-  // 여기에 작성해 주세요.
+  for (int i = 0; i < cart.length; i++) {
+    for (int j = 0; j < cart.length - 1; j++) {
+      if (cart[j].price < cart[j + 1].price) {
+        Product temp = cart[j];
+        cart[j] = cart[j + 1];
+        cart[j + 1] = temp;
+      }
+    }
+  }
 
   return cart;
 }
