@@ -2,7 +2,7 @@
 // Product를 가격(price)을 기준으로 내림차순 정렬한 배열을 반환해주세요.
 List<Product> sortByPrice(List<Product> cart) {
   // 여기에 작성해 주세요.
-
+  cart.sort((a, b) => b.price.compareTo(a.price));
   return cart;
 }
 

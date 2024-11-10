@@ -4,8 +4,11 @@
 // 단, 0 < n < 100
 List<int> getNumberList(int n) {
   // 여기에 작성해 주세요.
-
-  return [];
+  List<int> integers = [0];
+  for(int i = 1; i < n; i++){
+    integers.add(i);
+  }
+  return integers;
 }
 
 void main() {
