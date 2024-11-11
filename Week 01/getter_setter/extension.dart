@@ -2,7 +2,7 @@ class Scanner {
   void scanning() => print("scanning...");
 }
 
-class Printer {
+class Printer extends Scanner {
   void printing() => print("printing...");
 }
 
@@ -15,5 +15,5 @@ extension MyMachine on Machine {
 void main() {
   final machine = Machine();
   machine.printing();
-  // machine.scanning();
+  machine.scanning();
 }
