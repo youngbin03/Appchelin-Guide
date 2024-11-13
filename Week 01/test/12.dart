@@ -6,8 +6,8 @@
 // 힌트 : dart sort라고 Google에 검색해 보세요.
 List<int> sortByPrice(List<int> prices) {
   // 여기에 작성해 주세요.
-
-  return [];
+  prices.sort((a, b) => b.compareTo(a));
+  return prices;
 }
 
 void main() {

@@ -1,11 +1,13 @@
 // bucketList의 첫 번째 원소를 반환해주세요.
 String getFirst(List<String> bucketList) {
   // 아래에 작성해 주세요.
+  return bucketList.first;
 }
 
 // bucketList의 마지막 원소를 반환해주세요.
 String getLast(List<String> bucketList) {
   // 아래에 작성해 주세요.
+  return bucketList.last;
 }
 
 void main() {

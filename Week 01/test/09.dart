@@ -3,8 +3,9 @@
 // fruits 배열에서 target과 일치하는 과일을 모두 제외한 배열을 반환해주세요.
 List<String> removeFruit(List<String> fruits, String target) {
   // 여기에 작성해 주세요.
+  fruits.removeWhere((fruit) => fruit == target);
 
-  return [];
+  return fruits;
 }
 
 void main() {

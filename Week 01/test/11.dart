@@ -3,7 +3,15 @@
 // cart에 담긴 모든 상품의 최종 가격을 반환해 주세요.
 double totalPrice(List<Product> cart) {
   // 여기에 작성해 주세요.
-  return 0;
+  double total = 0;
+  for (var i in cart) {
+    if (i.isSale) {
+      total += 0.5 * i.price * i.count;
+    } else {
+      total += i.price * i.count;
+    }
+  }
+  return total;
 }
 
 class Product {
