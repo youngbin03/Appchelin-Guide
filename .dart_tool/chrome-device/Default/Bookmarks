@@ -1,0 +1,79 @@
+{
+   "checksum": "5f460c9b95821327f65c471dcf68ee57",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13351576298000",
+            "date_last_used": "0",
+            "guid": "f90e2f04-233c-4654-bf6b-12c58b3d5669",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13203931928856599"
+            },
+            "name": "쿠팡!",
+            "type": "url",
+            "url": "https://l.socialfriendsinc.com/api/redirect_url?id=89&pkg=gom_rs"
+         }, {
+            "date_added": "13376939681640920",
+            "date_last_used": "0",
+            "guid": "40ae82e5-adf9-446a-8cf3-6a8ce0d6a4ab",
+            "id": "9",
+            "name": "Adobe Acrobat Pro DC for Samsung",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_apdc"
+         }, {
+            "date_added": "13376939681640826",
+            "date_last_used": "0",
+            "guid": "5000fe16-b724-47da-bfaf-268e9254c46c",
+            "id": "8",
+            "name": "Adobe Creative Cloud All Apps for Samsung",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_cci"
+         }, {
+            "date_added": "13376939681640710",
+            "date_last_used": "0",
+            "guid": "58923970-7d32-4243-a258-8d9a6dcfd611",
+            "id": "7",
+            "name": "Adobe Premiere Pro CC for Samsung",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_ppcc"
+         }, {
+            "date_added": "13376939681640273",
+            "date_last_used": "0",
+            "guid": "a080d1a0-318b-4c8c-b3b5-151f255a07aa",
+            "id": "6",
+            "name": "McAfee LiveSafe - Benefits for Samsung PC users",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=249249"
+         } ],
+         "date_added": "13376939681386679",
+         "date_last_used": "0",
+         "date_modified": "13376939681640920",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "북마크바",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13376939681386681",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "기타 북마크",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13376939681386682",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "모바일 북마크",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

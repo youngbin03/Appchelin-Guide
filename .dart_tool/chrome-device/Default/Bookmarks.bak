@@ -1,0 +1,98 @@
+{
+   "checksum": "44776d3a8a28934789a7eab667fa3d49",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13351576298000",
+            "date_last_used": "0",
+            "guid": "f90e2f04-233c-4654-bf6b-12c58b3d5669",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13203931928856599"
+            },
+            "name": "쿠팡!",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://l.socialfriendsinc.com/api/redirect_url?id=89&pkg=gom_rs",
+            "visit_count": 0
+         }, {
+            "date_added": "13376939681640920",
+            "date_last_used": "0",
+            "guid": "40ae82e5-adf9-446a-8cf3-6a8ce0d6a4ab",
+            "id": "9",
+            "name": "Adobe Acrobat Pro DC for Samsung",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_apdc",
+            "visit_count": 0
+         }, {
+            "date_added": "13376939681640826",
+            "date_last_used": "0",
+            "guid": "5000fe16-b724-47da-bfaf-268e9254c46c",
+            "id": "8",
+            "name": "Adobe Creative Cloud All Apps for Samsung",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_cci",
+            "visit_count": 0
+         }, {
+            "date_added": "13376939681640710",
+            "date_last_used": "0",
+            "guid": "58923970-7d32-4243-a258-8d9a6dcfd611",
+            "id": "7",
+            "name": "Adobe Premiere Pro CC for Samsung",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "http://www.adobe.com/go/samsung_ppcc",
+            "visit_count": 0
+         }, {
+            "date_added": "13376939681640273",
+            "date_last_used": "0",
+            "guid": "a080d1a0-318b-4c8c-b3b5-151f255a07aa",
+            "id": "6",
+            "name": "McAfee LiveSafe - Benefits for Samsung PC users",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=249249",
+            "visit_count": 0
+         } ],
+         "date_added": "13376939681386679",
+         "date_last_used": "0",
+         "date_modified": "13376939681640920",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "즐겨찾기 모음",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13376939681386681",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "다른 즐겨찾기",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13376939681386682",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "모바일 즐겨찾기",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCBcBAl+TAQAAKg4QABgBIAAoBTAAOABAABIAKhhKTkd1M2RkaVBxczM5Q3JHMjAyUFp3PT1IA6AGDBKsAQgKEqcBChwzSVJoeGplQ1BESXdUUnErcGUrNXM4TFBmNlE9EiRmOTBlMmYwNC0yMzNjLTQ2NTQtYmY2Yi0xMmM1OGIzZDU2NjkYACAAKAAw09yButcxOIrfgbrXMUCK34G61zFKHDRHQzZ6NXhaLzBsNDdrVll2WkZGZG9oN1dobz1aHiIcRUVabTFTK2JDUk9zaTFhU2NvY0M3aEIzNlNzPWUAAAAAwj4CYAUSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkOTVhYzU3ZjctYTBiZi01YjAwLWIxMTUtNWYzMmM2NmQ4ZGVjGAAgACgAMN3J4NTLMTiy0ODUyzFAstDg1MsxShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDdiYWVlMDkwLTdkMjgtNTg3ZS05ZDIyLWI1ZTkxYTA5MDQ1MBgAIAAoADDeyeDUyzE4z9Dg1MsxQM/Q4NTLMUocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQzMGI0YzMzZS04ODNmLTVlNjEtYTM4NS0yMmM1ZjA4NmVjZjEYACAAKAAw48ng1MsxOIzR4NTLMUCM0eDUyzFKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}
